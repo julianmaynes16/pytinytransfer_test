@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.5)
 
 set(TINYTRANSFER_X86 1)
 
+project(tinytransfer_proj LANGUAGES CXX)
+
 add_subdirectory(tinytransfer)
 add_subdirectory(pybind11)
 
